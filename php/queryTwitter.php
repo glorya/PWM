@@ -4,10 +4,10 @@ require_once('TwitterAPIExchange.php');
 $hashtag = $_GET["q"];
 
 $settings = array(
-    'oauth_access_token' => "YOUR_ACCESS_TOKEN",
-    'oauth_access_token_secret' => "YOUR_ACCESS_TOKEN_SECRET",
-    'consumer_key' => "YOUR_CONSUMER_KEY",
-    'consumer_secret' => "YOUR_CONSUMER_SECRET"
+    'oauth_access_token' => "3385740927-VNNRfS0NwxYGlPRz8rxg5ZsjrgPo3TbpcRyOtnH",
+    'oauth_access_token_secret' => "MhSl6JDzivT0iFu0FWNcMc2rzzyahtRZZCGm4MX8Er4eZ",
+    'consumer_key' => "0fSkzlwtQdVY7MeH2vQGlkv3n",
+    'consumer_secret' => "AMlGHlzfFzcP12cJXCSLwi1eMjw51lkoHYT4hyPas9P73O1Zgh"
 );
 
 $url = 'https://api.twitter.com/1.1/search/tweets.json';
