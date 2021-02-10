@@ -87,25 +87,25 @@
 }
 
 #positive-tab.nav-link{
-    color: #6878AD;
+    color: #99ff99;
 }
 #positive-tab.nav-link.active{
     color: #fff;
-    background-color: #6878AD;
+    background-color: #99ff99;
 }
 #neutral-tab.nav-link.active{
     color: #fff;
-    background-color: #00D0A4;
+    background-color: #f2e6cc;
 }
 #neutral-tab.nav-link{
-    color: #00D0A4;
+    color: #f2e6cc;
 }
 #negative-tab.nav-link.active{
     color: #fff;
-    background-color: #F2736A;
+    background-color: #d9b3ff;
 }
 #negative-tab.nav-link{
-    color: #F2736A;
+    color: #d9b3ff;
 }
 .nav-link {
     padding: .5rem .8rem !important;
