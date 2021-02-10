@@ -57,6 +57,7 @@ function twitterSentiment(){
 }
 
 function processTwitterData(tweets){
+    console.log('ciao');
     setupSentimentModel().then(
         result => {
             const twitterData = [];
